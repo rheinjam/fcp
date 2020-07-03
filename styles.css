@@ -1,0 +1,316 @@
+/* Body */
+body{
+  font-family: 'Merriweather', serif;
+  min-height: 100%;
+  text-align: center;
+}
+
+/* Sizing */
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: left;
+  padding-top: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  width: 400px;
+}
+h5{
+  text-align: left;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  width: 400px;
+}
+h6{
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  color: gray;
+  font-size: 12px;
+  padding-top: 10px;
+}
+h7{
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  color: gray;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.fill-height {
+    height: 100%;
+}
+.btn{
+    font-family: 'Merriweather', serif;
+}
+/* div {
+
+} */
+
+/* NAVBAR */
+
+.navbar{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.navlogo{
+  width: 200px;
+  height: 70px;
+  position: relative;
+  margin-left: 30px;
+  padding: 0;
+  background-color: #eeeeee;
+}
+.nav-item{
+  padding: 0 40px 0 0;
+  margin-right: 10px;
+  color: #07031a;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.img1-fluid{
+  width: 25%;
+  height: auto;
+  text-align: center;
+  position: relative;
+  margin: 0 200px;
+}
+.text{
+  margin: 0 10px;
+}
+.threelines{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.dropbtn {
+  background-color: #FFDD00;
+  color: #07031a;
+  padding: 16px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  right: 30px;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  font-family: 'Halant', serif;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* Second Row Under Navbar */
+
+/* .container{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  max-width: 100%;
+} */
+#section1{
+  min-height: 510px;
+}
+.container-fluid{
+  background-color: #222831;
+  position: absolute;
+  max-width: 100%;
+  min-height: 510px;
+}
+
+.btn-warning{
+  position: relative;
+  bottom: 30px;
+
+}
+.image{
+  width: 400px;
+  height: 320px;
+  padding-top: 50px;
+}
+.scores{
+  position: absolute;
+  left: 35px;
+}
+.news{
+  position: absolute;
+  left: 30px;
+}
+.analysis{
+  position: absolute;
+  left: 15px;
+}
+.articles{
+  font-weight: bold;
+  text-align: left;
+}
+.articles-sec1{
+  position: relative;
+  bottom: 20px;
+  padding-bottom: 15px;
+}
+.smallheading2a{
+  color: white;
+  width: 85%;
+  font-size: 15px;
+  font-style: italic;
+  position: relative;
+  bottom: 15px;
+}
+
+/* Third Row Under Navbar */
+#section2{
+  min-height: 320px;
+}
+.gamedaycaption{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 150px;
+}
+.gamedaycaption2{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.gamedaycaption3{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.gamedaycaption4{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.gamedaypic{
+  margin-left: 150px;
+  width: 530px;
+  height: 320px;
+}
+.gamedaypic2{
+  width: 530px;
+  height: 320px;
+}
+.gameday{
+  top: 70px;
+  left: 10px;
+
+}
+.playerday{
+  top: 70px;
+}
+#section3{
+  margin-top: 120px;
+}
+.container-fluid-sec3{
+  background-color: #222831;
+  position: absolute;
+  max-width: 100%;
+  min-height: 350px;
+}
+
+.btn-warning-sec3{
+  position: relative;
+  bottom: 30px;
+
+}
+.image-sec3{
+  width: 500px;
+  height: 320px;
+  margin-top: 10px;
+}
+.opinion-sec3{
+  position: absolute;
+  left: 250.5px;
+}
+.news-sec3{
+  position: absolute;
+  left: 170px;
+}
+.smallheading{
+  color: white;
+  font-size: 25px;
+}
+.smallheading2{
+  color: white;
+  width: 100%;
+  font-size: 15px;
+  font-style: italic;
+  position: relative;
+  bottom: 15px;
+}
+.smallheading3{
+  color: gray;
+  font-size: 15px;
+  position: relative;
+  bottom: 50px;
+}
+.articles-sec3{
+  position: relative;
+  bottom: 20px;
+  padding-bottom: 15px;
+}
+.articlesbox{
+  padding-top: 35px;
+}
+
+/*  */
+#footer{
+  /* height: 200px; */
+}
+.footer {
+  position: relative;
+  top: 1050px;
+  width: 100%;
+  height: 53px;
+  margin: 0px;
+  background-color: white;
+  color: black;
+}
+.navlogofooter{
+  position: relative;
+  margin-left: 30px;
+  width: 10%;
+}
+.instagram{
+  position: relative;
+  left: 472px;
+
+}
+.twitter{
+  position: relative;
+  left: 530px;
+}
