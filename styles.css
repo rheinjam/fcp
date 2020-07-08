@@ -1,7 +1,6 @@
 /* Body */
 body{
   font-family: 'Merriweather', serif;
-  min-height: 100%;
   text-align: center;
 }
 
@@ -46,6 +45,9 @@ h7{
 }
 .btn{
     font-family: 'Merriweather', serif;
+}
+.nav-link-article:hover{
+  color: black;
 }
 /* div {
 
@@ -146,16 +148,17 @@ h7{
   min-height: 510px;
 }
 .container-fluid{
+
+}
+.btn-warning{
+  position: relative;
+  bottom: 30px;
+}
+.box{
   background-color: #222831;
   position: absolute;
   max-width: 100%;
   min-height: 510px;
-}
-
-.btn-warning{
-  position: relative;
-  bottom: 30px;
-
 }
 .image{
   width: 400px;
@@ -194,7 +197,7 @@ h7{
 
 /* Third Row Under Navbar */
 #section2{
-  min-height: 320px;
+  min-height: 400px;
 }
 .gamedaycaption{
   font-size: 40px;
@@ -234,9 +237,10 @@ h7{
 }
 #section3{
   margin-top: 120px;
+  background-color: #222831;
+  padding-bottom: 40px;
 }
 .container-fluid-sec3{
-  background-color: #222831;
   position: absolute;
   max-width: 100%;
   min-height: 350px;
@@ -254,7 +258,7 @@ h7{
 }
 .opinion-sec3{
   position: absolute;
-  left: 250.5px;
+  left: 30px;
 }
 .news-sec3{
   position: absolute;
@@ -266,7 +270,7 @@ h7{
 }
 .smallheading2{
   color: white;
-  width: 100%;
+  width: 70%;
   font-size: 15px;
   font-style: italic;
   position: relative;
@@ -293,9 +297,9 @@ h7{
 }
 .footer {
   position: relative;
-  top: 1050px;
+  top: 1000px;
   width: 100%;
-  height: 53px;
+  height: 50px;
   margin: 0px;
   background-color: white;
   color: black;
@@ -314,3 +318,10 @@ h7{
   position: relative;
   left: 530px;
 }
+@media (min-height: 480px) {
+     footer {
+       position: -webkit-sticky;
+       position: sticky;
+       bottom: 0;
+     }
+   }
