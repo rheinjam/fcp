@@ -84,6 +84,7 @@ h7{
 .img1-fluid{
   width: 25%;
   height: auto;
+  object-fit: cover;
   text-align: center;
   position: relative;
   margin: 0 200px;
@@ -151,7 +152,8 @@ h7{
 }
 .image{
   width: 800px;
-  height: 570px;
+  height: 550px;
+  object-fit: cover;
   position: absolute;
   left: 300px;
   margin-top: 65px;
@@ -168,6 +170,7 @@ h7{
 .smallheading{
   color: white;
   font-size: 42px;
+  width: 150%
 }
 
 .smallheading2{
@@ -210,4 +213,17 @@ h7{
 width: 400px;
 height: 320px;
 padding-top: 50px;
+}
+.articlepicture{
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  margin-top: 40px;
+
+}
+.articlepicture1{
+  width: 800px;
+  height: auto;
+  object-fit: cover;
+  top: 20px;
 }

@@ -63,7 +63,7 @@ h7{
   width: 200px;
   height: 70px;
   position: relative;
-  margin-left: 30px;
+  margin-left: 45px;
   padding: 0;
   background-color: #eeeeee;
 }
@@ -80,7 +80,7 @@ h7{
   padding: 6px;
   border: none;
   margin-top: 8px;
-  margin-right: 16px;
+  margin-right: 30px;
   font-size: 17px;
 }
 .img1-fluid{
@@ -92,6 +92,9 @@ h7{
 }
 .text{
   margin: 0 10px;
+}
+.collapse{
+  margin-right: 25px;
 }
 .threelines{
   height: 20px;
@@ -138,17 +141,7 @@ h7{
 
 /* Second Row Under Navbar */
 
-/* .container{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  padding-top: 40px;
-  max-width: 100%;
-} */
 #section1{
-  min-height: 510px;
-}
-.container-fluid{
-
 }
 .btn-warning{
   position: relative;
@@ -156,26 +149,23 @@ h7{
 }
 .box{
   background-color: #222831;
-  position: absolute;
+  display: flex;
   max-width: 100%;
-  min-height: 510px;
+  min-height: 500px;
 }
 .image{
-  width: 400px;
-  height: 320px;
-  padding-top: 50px;
+  width: 380px;
+  height: 275px;
+  object-fit: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 55px;
 }
-.scores{
-  position: absolute;
-  left: 35px;
-}
-.news{
-  position: absolute;
-  left: 30px;
-}
-.analysis{
-  position: absolute;
-  left: 15px;
+.section1art{
+  position: relative;
+  top: 50px;
+  left: 45px;
 }
 .articles{
   font-weight: bold;
@@ -194,16 +184,24 @@ h7{
   position: relative;
   bottom: 15px;
 }
-
-/* Third Row Under Navbar */
+/* Section2 */
 #section2{
-  min-height: 400px;
+margin: 80px 0 0 50px;
+}
+.box2{
+  background-color: white;
+  position: relative;
+  max-width: 100%;
+}
+.gamedaypic{
+  width: 90%;
+  height: 300px;
+  object-fit: cover;
 }
 .gamedaycaption{
   font-size: 40px;
   font-style: italic;
   font-weight: bolder;
-  margin-left: 150px;
 }
 .gamedaycaption2{
   font-size: 18px;
@@ -218,51 +216,27 @@ h7{
   font-size: 18px;
   font-weight: bolder;
 }
-.gamedaypic{
-  margin-left: 150px;
-  width: 530px;
-  height: 320px;
-}
-.gamedaypic2{
-  width: 530px;
-  height: 320px;
-}
-.gameday{
-  top: 70px;
-  left: 10px;
 
-}
-.playerday{
-  top: 70px;
-}
+/* Section 3 */
 #section3{
-  margin-top: 120px;
+  margin-top: 60px;
   background-color: #222831;
-  padding-bottom: 40px;
-}
-.container-fluid-sec3{
-  position: absolute;
   max-width: 100%;
-  min-height: 350px;
+  min-height: 510px;
 }
-
+.box3{
+  background-color: #222831;
+  max-width: 100%;
+  min-height: 530px;
+}
 .btn-warning-sec3{
   position: relative;
   bottom: 30px;
-
 }
 .image-sec3{
   width: 500px;
   height: 320px;
-  margin-top: 10px;
-}
-.opinion-sec3{
-  position: absolute;
-  left: 30px;
-}
-.news-sec3{
-  position: absolute;
-  left: 170px;
+  object-fit: cover;
 }
 .smallheading{
   color: white;
@@ -282,47 +256,41 @@ h7{
   position: relative;
   bottom: 50px;
 }
-.articles-sec3{
-  position: relative;
-  bottom: 20px;
-  padding-bottom: 15px;
+.section3art{
+  margin-left: 140px;
+  margin-top: 50px;
 }
-.articlesbox{
-  padding-top: 35px;
+.section3artb{
+  margin-left: 140px;
+  margin-top: 0;
 }
 
-/*  */
-#footer{
-  /* height: 200px; */
-}
+
+/* Section4 */
 .footer {
   position: relative;
-  top: 1000px;
   width: 100%;
-  height: 50px;
-  margin: 0px;
+  height: 20px;
+  margin: 0;
   background-color: white;
-  color: black;
+  color: white;
 }
 .navlogofooter{
   position: relative;
-  margin-left: 30px;
-  width: 10%;
+  margin-left: 35px;
+  width: 30%;
 }
 .instagram{
   position: relative;
-  left: 472px;
+  left: 480px;
+  width: 30px;
+  height: auto;
 
 }
 .twitter{
   position: relative;
-  left: 530px;
-}
-@media (min-height: 480px) {
-     footer {
-       position: -webkit-sticky;
-       position: sticky;
-       bottom: 0;
-     }
-   }
+  left: 510px;
+  width: 30px;
+  height: auto;
 
+}
