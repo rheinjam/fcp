@@ -294,3 +294,9 @@ margin: 80px 0 0 50px;
   height: auto;
 
 }
+@media (max-width: 768px){
+  .img{
+    width: 100%;
+    
+  }
+}
