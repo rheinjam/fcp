@@ -192,7 +192,6 @@ h7{
     .articles-sec1{
       left: -5px;
     }
-
   }
 
 .smallheading{
@@ -248,7 +247,7 @@ iframe{
 }
 @media (max-width: 800px){
   iframe{
-    width: 500px;
+    width: 400px;
     height: 200px;
   }
 }
