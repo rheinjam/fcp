@@ -162,6 +162,11 @@ h7{
   background-size: cover;
   margin-right: 55px;
 }
+@media screen and (max-width: 768px) {
+  .image{
+    width: 100%;
+    height: auto;
+  }
 .section1art{
   position: relative;
   top: 50px;
