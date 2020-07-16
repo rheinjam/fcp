@@ -198,6 +198,11 @@ h7{
   font-size: 42px;
   width: 150%
 }
+@media (max-width: 800px){
+  .smallheading{
+    width: 100%;
+  }
+}
 
 .smallheading2{
   color: white;
