@@ -66,6 +66,12 @@ h7{
   padding: 0;
   background-color: #eeeeee;
 }
+@media (max-width: 600px) {
+  .navlogo{
+    margin-left: 10px;
+}
+}
+
 .nav-item{
   padding: 0 40px 0 0;
   margin-right: 10px;
@@ -168,6 +174,12 @@ h7{
   top: 50px;
   left: 45px;
 }
+
+@media (max-width: 600px) {
+  .section1art{
+    margin: 50px 0 0 10px;
+}
+}
 .articles{
   font-weight: bold;
   text-align: left;
@@ -261,7 +273,7 @@ margin: 60px 0 0 0;
 }
 @media (max-width: 600px) {
   .section3art{
-    margin: 50px 0 0 20px;
+    margin: 50px 0 0 10px;
 }
   .image-sec3{
     width: 100%;
