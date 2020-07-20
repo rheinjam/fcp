@@ -68,7 +68,7 @@ h7{
 }
 @media (max-width: 600px) {
   .navlogo{
-    margin-left: 5px;
+    margin-left: 0px;
 }
 }
 
@@ -178,7 +178,7 @@ h7{
 @media (max-width: 600px) {
   .section1art{
     position: relative;
-    left: 5px;
+    left: 0;
 }
 }
 .articles{
@@ -204,7 +204,7 @@ margin: 80px 0 0 50px;
 }
 @media (max-width: 600px) {
   #section2{
-    margin-left: 30px;
+    margin-left: 32.5px;
 }
 }
 .box2{
