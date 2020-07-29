@@ -7,7 +7,7 @@ a{
   text-decoration: none;
 }
 a:hover {
-  background-color: black;
+  color: black;
 }
 /* Sizing */
 h1{
