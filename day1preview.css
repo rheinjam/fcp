@@ -220,12 +220,12 @@ h7{
 }
 @media (max-width: 600px){
   .smallheading3{
-    margin-top: -30px;
+    margin-top: -15px;
   }
 }
 #article{
   position: relative;
-  top: 120px;
+  top: 150px;
   left: 310px;
   width: 55%
 }

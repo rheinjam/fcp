@@ -162,8 +162,8 @@ h7{
       }
 }
 .image{
-  width: 800px;
-  height: 580px;
+  width: 120%;
+  height: auto;
   object-fit: cover;
   position: absolute;
   left: 300px;
@@ -173,7 +173,7 @@ h7{
 @media (max-width: 600px) {
     .image{
       left: 10px;
-      width: 90%;
+      width: 70%;
       height: auto;
       object-fit: cover;
     }
@@ -233,7 +233,7 @@ h7{
     #article{
       left: 10px;
       top: 100px;
-      width: 100%;
+      width: 90%;
     }
   }
 .article{
@@ -245,6 +245,16 @@ h7{
   line-height: 2.5rem;
   padding-bottom: 20px;
   font-weight: normal;
+}
+.articleheading{
+  position: relative;
+  top: 50px;
+  color: black;
+  font-size: 30px;
+  font-family: 'Helvetica', serif;
+  line-height: 2.5rem;
+  padding-bottom: 20px;
+  font-weight: bolder;
 }
 iframe{
   width: 700px;
