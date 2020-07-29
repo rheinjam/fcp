@@ -225,7 +225,7 @@ h7{
 }
 #article{
   position: relative;
-  top: 100px;
+  top: 80px;
   left: 310px;
   width: 55%
 }
@@ -248,7 +248,7 @@ h7{
 }
 .articleheading{
   position: relative;
-  top: 0;
+  top: 20px;
   color: black;
   font-size: 20px;
   font-family: 'Helvetica', serif;
