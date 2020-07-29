@@ -3,7 +3,9 @@ body{
   font-family: 'Merriweather', serif;
   text-align: center;
 }
-
+a{
+  text-decoration-color: black;
+}
 /* Sizing */
 h1{
   text-align: center;

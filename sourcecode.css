@@ -4,7 +4,9 @@ body{
   min-height: 100%;
   text-align: center;
 }
-
+a{
+  text-decoration-color: black;
+}
 /* Sizing */
 h1{
   text-align: center;
