@@ -199,7 +199,12 @@ h7{
   font-size: 42px;
   width: 150%
 }
-
+@media (max-width: 600px){
+  .smallheading{
+  color: white;
+  font-size: 25px;
+  width: 90%;
+}
 .smallheading2{
   color: white;
   width: 200%;
@@ -208,11 +213,8 @@ h7{
   position: relative;
   bottom: 15px;
 }
-@media (max-width: 600px){
-  .smallheading2{
-    width: 100%;
-  }
 }
+
 .smallheading3{
   color: #696969;
   font-size: 16px;
