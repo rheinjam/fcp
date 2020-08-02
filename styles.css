@@ -3,8 +3,8 @@ body{
   font-family: 'Merriweather', serif;
   text-align: center;
 }
-a {text-decoration: none; }
 
+/* Sizing */
 h1{
   text-align: center;
 }
@@ -215,6 +215,7 @@ margin: 80px 0 0 100px;
 .gamedaypic{
   width: 90%;
   height: 300px;
+  object-fit: cover;
 }
 .gamedaycaption{
   font-size: 40px;
@@ -248,10 +249,15 @@ margin: 60px 0 0 0;
   position: relative;
   bottom: 30px;
 }
+.image-sec3{
+  width: 105%;
+  height: 320px;
+  object-fit: cover;
+
+}
 .smallheading{
   color: white;
   font-size: 25px;
-}
 }
 .smallheading2{
   color: white;
@@ -269,7 +275,7 @@ margin: 60px 0 0 0;
 }
 .section3art{
   position: relative;
-  margin: 50px 0 0 155px;
+  margin: 50px 0 0 145px;
 }
 @media (max-width: 600px) {
   .section3art{
@@ -278,29 +284,21 @@ margin: 60px 0 0 0;
 }
   .image-sec3{
     width: 100%;
-    height: auto;
+    height: 320px;
     object-fit: cover;
   }
 
 
 .section3artb{
   position: relative;
-  margin: 10px 0 0 155px;
+  margin: 10px 0 0 135px;
 }
 @media (max-width: 600px) {
   .section3artb{
     margin: 40px 0 0 5px;
 }
 }
-.section3artc{
-  position: relative;
-  margin: 10px 0 0 155px;
-}
-@media (max-width: 600px) {
-  .section3artc{
-    margin: 40px 0 0 5px;
-}
-}
+
 /* Section4 */
 .footer {
   position: relative;
