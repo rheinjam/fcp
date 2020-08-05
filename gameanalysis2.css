@@ -162,7 +162,7 @@ h7{
       }
 }
 .image{
-  width: 70%;
+  width: 65%;
   height: auto;
   object-fit: cover;
   position: absolute;
@@ -230,8 +230,8 @@ h7{
   color: #696969;
   font-size: 16px;
   font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 @media (max-width: 600px){
   .smallheading3{
@@ -240,7 +240,7 @@ h7{
 }
 #article{
   position: relative;
-  top: 100px;
+  top: 120px;
   left: 310px;
   width: 55%
 }
