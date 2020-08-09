@@ -230,7 +230,11 @@ h7{
   color: #696969;
   font-size: 16px;
   font-weight: bold;
-  padding-bottom: 30px;
+  position: relative;
+  top: 100px;
+  left: 310px;
+  width: 55%;
+
 }
 @media (max-width: 600px){
   .smallheading3{
